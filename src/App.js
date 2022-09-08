@@ -1,12 +1,20 @@
 import React from "react";
-import background from "./background.png";
+
+import Dictionary from "./Dictionary.js";
+
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <div>
-        <img src={background} className="App-background" alt="background" />
+      <div className="containter">
+        <main>
+          <Dictionary />
+        </main>
+
+        <footer className="App-footer">
+          <small>Coded by Jen Begazo</small>
+        </footer>
       </div>
     </div>
   );
