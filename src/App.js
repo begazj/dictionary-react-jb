@@ -13,7 +13,17 @@ export default function App() {
         </main>
 
         <footer className="App-footer">
-          <small>Coded by Jen Begazo</small>
+          <small>
+            This project was coded by Jen Begazo and is{" "}
+            <a
+              href="https://github.com/begazj/dictionary-react-jb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced
+            </a>{" "}
+            on GitHub.
+          </small>
         </footer>
       </div>
     </div>
