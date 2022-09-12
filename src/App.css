@@ -1,4 +1,12 @@
+.App {
+  font-family: "Courier Prime", monospace;
+}
+.App h1 {
+  color: #000000;
+  text-align: center;
+}
 .App .App-footer {
   margin-bottom: 20px;
   text-align: center;
+  color: #ffffff;
 }
