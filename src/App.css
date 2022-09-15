@@ -1,9 +1,14 @@
 .App {
+  background-image: url("./images/background.png");
+  max-width: 970px;
+  height: 800px;
   font-family: "Courier Prime", monospace;
+  margin: 0 auto;
 }
 .App h1 {
   color: #000000;
   text-align: center;
+  padding: 30px 30px;
 }
 .App .App-footer {
   margin-bottom: 20px;
