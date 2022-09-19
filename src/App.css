@@ -2,6 +2,7 @@
   background: #d3b788;
   font-family: "Courier Prime", monospace;
   margin: 0 auto;
+  max-width: 900px;
 }
 .App .title {
   color: #000000;
@@ -9,7 +10,7 @@
   padding: 30px 30px;
 }
 .App .App-footer {
-  margin-bottom: 20px;
+  padding-bottom: 10px;
   text-align: center;
   color: #ffffff;
 }
