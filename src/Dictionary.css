@@ -2,8 +2,33 @@
   max-width: 700px;
   display: block;
   margin: 0 auto;
-
   margin-bottom: 10px;
   border-radius: 4px;
   color: #3e3317;
+}
+
+.Dictionary h1 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+}
+
+.Dictionary .hint {
+  font-size: 12px;
+  margin-top: 5px;
 }

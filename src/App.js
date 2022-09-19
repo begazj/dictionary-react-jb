@@ -8,9 +8,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="containter">
-        <h1>Dictionary App</h1>
+        <h1 className="title">Dictionary App</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="design" />
         </main>
 
         <footer className="App-footer">

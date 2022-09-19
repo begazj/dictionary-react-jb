@@ -1,11 +1,9 @@
 .App {
-  background-image: url("./images/background.png");
-  max-width: 970px;
-  height: 800px;
+  background: #d3b788;
   font-family: "Courier Prime", monospace;
   margin: 0 auto;
 }
-.App h1 {
+.App .title {
   color: #000000;
   text-align: center;
   padding: 30px 30px;
