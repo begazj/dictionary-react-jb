@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="containter">
-        <h1 className="title">Dictionary App</h1>
+        <h2 className="title">Dictionary App</h2>
         <main>
           <Dictionary defaultKeyword="design" />
         </main>

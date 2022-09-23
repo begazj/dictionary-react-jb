@@ -71,8 +71,8 @@ export default function Dictionary(props) {
             Suggested words: hope, process, patience...
           </div>
         </section>
-        <Results results={results} />
         <Photos photos={photos} />
+        <Results results={results} />
       </div>
     );
   } else {
