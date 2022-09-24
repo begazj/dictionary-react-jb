@@ -1,11 +1,11 @@
 .App {
-  background: linear-gradient(120deg, #008bcf, #ffffff);
+  background: linear-gradient(130deg, #000000, #ffffff);
   font-family: "Courier Prime", monospace;
   margin: 0 auto;
 }
 .App h2 {
-  color: #eaddc9;
-  margin-bottom: -30px;
+  color: #3e3317;
+  margin-bottom: -20px;
 }
 .App .title {
   color: white;
@@ -16,4 +16,13 @@
   padding-bottom: 10px;
   text-align: center;
   color: #3e3317;
+}
+
+@media (max-width: 600px) {
+  .App .title {
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: -20px;
+  }
 }
